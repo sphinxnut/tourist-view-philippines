@@ -25,8 +25,18 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
+       const sidebar = document.querySelector(".side-bar");
+       const main = document.querySelector(".container-visit");
+
+       document
+         .getElementById("toggle-sidebar")
+         .addEventListener("click", function () {
+           sidebar.classList.toggle("hidden");
+           main.classList.toggle("hidden");
+         });
+
   // Get all the navigation links
-  const navLinks = document.querySelectorAll('.nav-link');
+  const navLinks = document.querySelectorAll('#a-link');
 
   // Add a click event listener to each link
   navLinks.forEach(link => {

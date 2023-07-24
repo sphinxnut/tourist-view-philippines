@@ -1,3 +1,61 @@
+/* Add styles to the side-bar */
+.side-bar {
+    display: block;
+     transition: width 0.3s ease;
+    padding: 20px;
+    /* Add some padding for spacing */
+    border-radius: 5px;
+    /* Add rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Add a subtle shadow */
+    position: fixed;
+    /* Set the position to fixed to keep it fixed on the left side */
+    top: 0;
+    /* Position it at the top of the page */
+    left: 0;
+    /* Position it at the left side of the page */
+    height: 100%;
+    /* Set the height to 100% to cover the entire height of the page */
+    width: 250px;
+    /* Set the width of the side-bar */
+}
+.side-bar.hidden {
+    width: 0;
+}
+.sidebar-header {
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+
+    color: #000;
+}
+
+/* Style the links inside the side-bar */
+.side-bar a {
+    display: block;
+    color: #333;
+    /* Set the link color */
+    text-decoration: none;
+    padding: 5px 10px;
+    /* Add padding for spacing between links */
+}
+
+/* Change link color on hover */
+.side-bar a:hover {
+    background-color: #6ee1f0;
+    /* Set a background color on hover */
+}
+
+/* Style the active link */
+.side-bar .active {
+    font-weight: bold;
+    /* Make the active link bold */
+    color: #007bff;
+    /* Set the active link color */
+}
 
 /* Style the content area to make room for the side-bar */
 .container-visit {
