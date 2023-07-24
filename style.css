@@ -231,6 +231,8 @@ h1 {
 .img-container {
     position: relative;
     margin: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease; /* Added transition for smooth zoom effect */
 }
 
 .img-container img {
@@ -239,6 +241,10 @@ h1 {
     display: block;
     border-radius: 5px;
     cursor: pointer;
+}
+
+.img-container:hover {
+    transform: scale(1.1); /* Increase the scale factor for zooming in, e.g., 1.1 for a slight zoom */
 }
 
 .img-description {
@@ -263,6 +269,7 @@ h1 {
     text-align: center;
     padding: 10px;
 }
+
 
 .beach-header{
 margin-left: 50px;
