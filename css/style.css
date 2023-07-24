@@ -51,9 +51,9 @@
 
 /* Style the active link */
 .side-bar .active {
-    font-weight: bold;
+  font-family: arial;
     /* Make the active link bold */
-    color: #007bff;
+    color: #000000;
     /* Set the active link color */
 }
 
@@ -97,6 +97,7 @@
     border: 1px solid #ade037;
     border-radius: 10px;
     transition: transform 0.3s ease;
+    margin: 10px;
  
 }
 
@@ -109,11 +110,11 @@
 
 /* Add background colors to the divs */
 .about {
-       margin-left: 120px;
+       margin-left: 20%;
 }
 
 .contact {
-       margin-right: 120px;
+       margin-right: 20%;
   
 }
 
