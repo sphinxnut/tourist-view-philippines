@@ -25,10 +25,6 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
-
-
- 
-
   // Get all the navigation links
   const navLinks = document.querySelectorAll('#a-link');
 
