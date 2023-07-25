@@ -48,13 +48,27 @@ document.addEventListener("DOMContentLoaded", function () {
       });
     });
   });
+$(document).ready(function () {
+  // Add JavaScript code here
 
-  $(document).ready(function() {
-    var currentPageUrl = window.location.pathname;
-    $('a.nav-link').each(function() {
-      if ($(this).attr('href') === currentPageUrl) {
-        $(this).addClass('active');
-      }
-    });
+  // Enable Bootstrap tooltips (optional, if you use tooltips)
+  $('[data-toggle="tooltip"]').tooltip();
+
+  // Toggle button for the mobile navbar
+  $(".navbar-toggler").on("click", function () {
+    // Toggle the 'active' class on the navbar
+    $(this).toggleClass("active");
+
+    // Toggle the 'show' class on the collapsible content
+    $("#navbarTogglerDemo03").toggleClass("show");
   });
 
+  // Close the mobile navbar when clicking on a nav link
+  $(".nav-link").on("click", function () {
+    // Check if the mobile navbar is open
+    if ($(".navbar-toggler").hasClass("active")) {
+      // Close the mobile navbar by triggering a click on the toggle button
+      $(".navbar-toggler").trigger("click");
+    }
+  });
+});
