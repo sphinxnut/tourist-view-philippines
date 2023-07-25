@@ -1,7 +1,3 @@
-document.getElementById("btnView").addEventListener("click", function () {
-  var myModal = new bootstrap.Modal(document.querySelector("#show"));
-  myModal.show();
-});
 
 
 document.addEventListener("DOMContentLoaded", function () {
@@ -26,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
   // Get all the navigation links
-  const navLinks = document.querySelectorAll('#a-link');
+  const navLinks = document.querySelectorAll('.nav-link');
 
   // Add a click event listener to each link
   navLinks.forEach(link => {
@@ -52,3 +48,13 @@ document.addEventListener("DOMContentLoaded", function () {
       });
     });
   });
+
+  $(document).ready(function() {
+    var currentPageUrl = window.location.pathname;
+    $('a.nav-link').each(function() {
+      if ($(this).attr('href') === currentPageUrl) {
+        $(this).addClass('active');
+      }
+    });
+  });
+
