@@ -1,385 +1,376 @@
-
-
 .loader_bg {
-     position: fixed;
-     z-index: 9999999;
-     background: #fff;
-     width: 100%;
-     height: 100%;
+  position: fixed;
+  z-index: 9999999;
+  background: #fff;
+  width: 100%;
+  height: 100%;
 }
 
 .loader {
-     height: 100%;
-     width: 100%;
-     position: absolute;
-     left: 0;
-     top: 0;
-     display: flex;
-     justify-content: center;
-     align-items: center;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .loader img a {
-     width: 280px;
+  width: 280px;
 }
 
 .container {
-    width: 100%;
+  width: 100%;
 }
 
 .custom-navbar {
-margin-left: 80%;
-    background-color: transparent;
+  margin-left: 60%;
+  background-color: transparent;
 }
 
 .navbar-left {
-    margin-bottom: 5%;
+  margin-bottom: 5%;
 }
 
 .nav-link {
-    font-style: normal;
-    font-size: 18px;
+  font-style: normal;
+  font-size: 18px;
 }
 
 .nav-link:hover {
-text-decoration: underline;
+  text-decoration: underline;
 }
 
 .header {
-    padding: 20px 0;
-
+  padding: 20px 0;
 }
 
 .btn-area,
 .btn {
-    width: 100px;
-    height: 30px;
-    font-size: 14px;
+  width: 100px;
+  height: 30px;
+  font-size: 14px;
 }
 
 .btn-area {
-    margin-top: 10px;
-    margin-left: 80%;
+  margin-top: 10px;
+  margin-left: 80%;
 }
 
 .title-description {
-    font-family: Aria black;
-    margin-left: 4%;
-
+  font-family: Aria black;
+  margin-left: 4%;
 }
 
 .more-info {
-    display: flex;
-    flex-direction: row;
-    margin-top: 5%;
-    justify-content: center;
-
+  display: flex;
+  flex-direction: row;
+  margin-top: 5%;
+  justify-content: center;
 }
 
-.about{
-    text-align: center;
-    flex: 0 1 70%;
-    padding: 20px;
-    border: 1px solid #ade037;
-    border-radius: 30px;
-    transition: transform 0.3s ease;
-    margin: 10px;
+.about {
+  text-align: center;
+  flex: 0 1 70%;
+  padding: 20px;
+  border: 1px solid #ade037;
+  border-radius: 30px;
+  transition: transform 0.3s ease;
+  margin: 10px;
 }
 
 .about:hover {
-    background-color: rgba(0, 0, 0, 0.25);
-    transform: scale(1.1);
-    opacity: 1;
+  background-color: rgba(0, 0, 0, 0.25);
+  transform: scale(1.1);
+  opacity: 1;
 }
 
 .p-2 {
-    background-color: aquamarine;
+  background-color: aquamarine;
 }
 
 .d-flex.flex-column.mb-3 {
-    width: 6%;
+  width: 6%;
 }
-
 
 .description {
-    text-align: center;
-    flex: 0 1 70%;
-    padding: 20px;
-    border: 1px solid #ade037;
-    border-radius: 30px;
-    transition: transform 0.3s ease;
-    margin: 10px;
+  text-align: center;
+  flex: 0 1 70%;
+  padding: 20px;
+  border: 1px solid #ade037;
+  border-radius: 30px;
+  transition: transform 0.3s ease;
+  margin: 10px;
 }
 .description:hover {
-    background-color: rgba(0, 0, 0, 0.25);
-    transform: scale(1.1);
-    opacity: 1;
+  background-color: rgba(0, 0, 0, 0.25);
+  transform: scale(1.1);
+  opacity: 1;
 }
 
 .label,
 a {
-    text-align: center;
-    text-decoration: none;
-    color: black;
-    justify-content: space-between;
-    margin-right: 50px;
-    margin-left: 50px;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  justify-content: space-between;
+  margin-right: 50px;
+  margin-left: 50px;
 }
 
 #modal-data dl {
-    display: flex;
-    flex-direction: row;
-    /* Items will be displayed in a row */
-    justify-content: space-between;
-    /* Space evenly between items */
-    list-style: none;
-    /* Remove default list styles */
-    padding: 0;
-    margin: 0;
+  display: flex;
+  flex-direction: row;
+  /* Items will be displayed in a row */
+  justify-content: space-between;
+  /* Space evenly between items */
+  list-style: none;
+  /* Remove default list styles */
+  padding: 0;
+  margin: 0;
 }
 
 #modal-data dd {
-    flex: 1;
+  flex: 1;
 }
 
 .label {
-    margin: 5px;
+  margin: 5px;
 }
 
 .label a {
-    text-decoration: none;
-    color: #02589e;
-    font-weight: bold;
+  text-decoration: none;
+  color: #02589e;
+  font-weight: bold;
 }
 
 .label a:hover {
-    color: rgb(9, 70, 66);
+  color: rgb(9, 70, 66);
 }
 
 html {
-    height: 100%;
+  height: 100%;
 }
 
 body {
-    margin: 0;
+  margin: 0;
 }
 
 .bg {
-    animation: slide 3s ease-in-out infinite alternate;
-    background-image: linear-gradient(-60deg, #6c3 50%, #09f 50%);
-    bottom: 0;
-    left: -50%;
-    opacity: .5;
-    position: fixed;
-    right: -50%;
-    top: 0;
-    z-index: -1;
+  animation: slide 3s ease-in-out infinite alternate;
+  background-image: linear-gradient(-60deg, #6c3 50%, #09f 50%);
+  bottom: 0;
+  left: -50%;
+  opacity: 0.5;
+  position: fixed;
+  right: -50%;
+  top: 0;
+  z-index: -1;
 }
 
 .bg2 {
-    animation-direction: alternate-reverse;
-    animation-duration: 4s;
+  animation-direction: alternate-reverse;
+  animation-duration: 4s;
 }
 
 .bg3 {
-    animation-duration: 5s;
+  animation-duration: 5s;
 }
 
 .content {
-    background-color: rgba(255, 255, 255, .8);
-    border-radius: .25em;
-    box-shadow: 0 0 .25em rgba(0, 0, 0, .25);
-    box-sizing: border-box;
-    left: 50%;
-    padding: 10vmin;
-    position: fixed;
-    text-align: center;
-    top: 50%;
-    transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 0.25em;
+  box-shadow: 0 0 0.25em rgba(0, 0, 0, 0.25);
+  box-sizing: border-box;
+  left: 50%;
+  padding: 10vmin;
+  position: fixed;
+  text-align: center;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 
 h1 {
-    font-family: monospace;
+  font-family: monospace;
 }
 
 @keyframes slide {
-    0% {
-        transform: translateX(-25%);
-    }
+  0% {
+    transform: translateX(-25%);
+  }
 
-    100% {
-        transform: translateX(25%);
-    }
+  100% {
+    transform: translateX(25%);
+  }
 }
 
 /* ... (existing CSS rules) ... */
 
 .img-area {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    margin-top: 20px;
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
 }
 
 .img-container {
-    position: relative;
-    margin: 10px;
-    overflow: hidden;
-    transition: transform 0.3s ease;
+  position: relative;
+  margin: 10px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
 }
 
 .img-container img {
-    width: 400px;
-    height: 350px;
-    display: block;
-    border-radius: 5px;
-    cursor: pointer;
+  width: 400px;
+  height: 350px;
+  display: block;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
 img {
-    margin-left: 20;
+  margin-left: 20;
 }
 
 .img-container:hover {
-    transform: scale(1.1);
-    /* Increase the scale factor for zooming in, e.g., 1.1 for a slight zoom */
+  transform: scale(1.1);
+  /* Increase the scale factor for zooming in, e.g., 1.1 for a slight zoom */
 }
 
 .img-description {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    padding: 5px;
-    background-color: rgba(0, 0, 0, 0.8);
-    color: white;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
-    opacity: 0;
-    transition: opacity 0.3s;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 5px;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  opacity: 0;
+  transition: opacity 0.3s;
 }
 
 .img-container:hover .img-description {
-    opacity: 1;
+  opacity: 1;
 }
 
 .img-description-modal {
-    text-align: center;
-    padding: 10px;
+  text-align: center;
+  padding: 10px;
 }
 
-
 .beach-header {
-    margin-left: 50px;
+  margin-left: 50px;
 }
 
 .modal {
-    background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 /* Center the modal */
 .modal-dialog {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 80vh;
-    /* Set the modal's height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  /* Set the modal's height */
 }
 
 .modal-content {
-    max-width: 80%;
-    /* Set the maximum width of the modal */
-    opacity: 0;
-    transition: opacity 0.3s;
-    /* Add a fade-in transition effect */
+  max-width: 80%;
+  /* Set the maximum width of the modal */
+  opacity: 0;
+  transition: opacity 0.3s;
+  /* Add a fade-in transition effect */
 }
 
 /* Fade in the modal when it becomes visible */
 .modal.show .modal-content {
-    opacity: 1;
+  opacity: 1;
 }
 
 .modal-body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .modal-body img {
-    max-width: 100%;
-    /* Set the image to fit within the modal */
-    max-height: 60vh;
-    /* Set the maximum height of the image */
-    border-radius: 5px;
-    margin-bottom: 10px;
+  max-width: 100%;
+  /* Set the image to fit within the modal */
+  max-height: 60vh;
+  /* Set the maximum height of the image */
+  border-radius: 5px;
+  margin-bottom: 10px;
 }
 
 .img-description-modal {
-    text-align: center;
-    padding: 10px;
+  text-align: center;
+  padding: 10px;
 }
 
 /* Add justify alignment to the description */
 .justify-description {
-    text-align: justify;
+  text-align: justify;
 }
 
 .s_stk {
-    z-index: 99999999;
+  z-index: 99999999;
 }
 .s_stk {
-    background: #f1f1f1;
-    display: inline-block;
-    width: 100%;
-    padding: 0;
-    position: fixed;
-    bottom: 0;
-    text-align: center;
-    border: 0;
+  background: #f1f1f1;
+  display: inline-block;
+  width: 100%;
+  padding: 0;
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  border: 0;
 }
 .s_stk {
-
-    display: inline-block;
-    padding: 10px;
-    font-size: 20px;
-    font-weight: bold;
-    box-sizing: 50%;
+  display: inline-block;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  box-sizing: 50%;
 }
-.bi{
- padding: 15px 60px 60px 60px;
+.bi {
+  padding: 15px 60px 60px 60px;
   font-size: 30px;
   width: 50px;
   text-align: center;
   text-decoration: none;
 }
-.bi-facebook{
-     background: #3B5998;
+.bi-facebook {
+  background: #3b5998;
   color: white;
 }
-.bi-github{
-     background:  #171515;
+.bi-github {
+  background: #171515;
   color: white;
 }
-.bi-twitter{
-     background: #1DA1F2;
+.bi-twitter {
+  background: #1da1f2;
   color: white;
 }
-.bi-instagram{
-     background: #C13584;
+.bi-instagram {
+  background: #c13584;
   color: white;
 }
-.bi-envelope{
-     background: #094ee1f4;
+.bi-envelope {
+  background: #094ee1f4;
   color: white;
 }
 
-.footer-paragraph{
-    font-family: arial;
-    font-size: 20px;
-    text-align: center;
-    font-weight: 500;
+.footer-paragraph {
+  font-family: arial;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 500;
 }
 
 @media screen and (max-width: 768px) {
