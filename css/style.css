@@ -24,47 +24,24 @@
 .container {
   width: 100%;
 }
-/* Common styles for the navbar links */
-.custom-navbar .navbar-nav .nav-item {
-  text-align: center;
+
+.custom-navbar {
+
+  background-color: transparent;
 }
 
-.custom-navbar .navbar-nav .nav-link {
+.navbar-left {
+  margin-bottom: 5%;
+}
+
+.nav-link {
   font-style: normal;
   font-size: 18px;
-  padding: 10px 20px;
-  text-decoration: none;
-  color: #000;
 }
 
-.custom-navbar .navbar-nav .nav-link:hover {
+.nav-link:hover {
   text-decoration: underline;
 }
-
-/* Media query for mobile devices (adjust the breakpoint as needed) */
-@media (max-width: 767px) {
-  /* Hide the navbar items by default */
-  .custom-navbar .navbar-nav {
-    display: none;
-  }
-
-  /* Show the navbar items when the toggle button is active */
-  .custom-navbar .navbar-collapse {
-    display: flex;
-    justify-content: center;
-  }
-
-  /* Center the toggle button */
-  .custom-navbar .navbar-toggler {
-    margin: 0 auto;
-  }
-
-  /* Adjust the appearance of the collapsed navbar */
-  .custom-navbar .navbar-collapse .nav-item {
-    margin-bottom: 10px;
-  }
-}
-
 
 .header {
   padding: 20px 0;
